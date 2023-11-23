@@ -40,7 +40,8 @@ public class MainScreenFragment extends Fragment {
                 MeteringDevice device = meteringDeviceTableManager.getMeteringDeviceByNumber(ED_searchField.getText().toString());
                 if (device != null){
                     ((MainActivity) getActivity()).showDeviceCard(NewCardFragment.newInstance(device.getDeviceNumber(),
-                            device.getNameOfOwner(), device.getStatus(), device.getStamp()));
+                            device.getStatus(), device.getType(), device.getAddress(), device.getVerificationDate(),
+                            device.getVerificationExpirationDate(),device.getStamp(), device.getLastReadings()));
                 }
 
             }

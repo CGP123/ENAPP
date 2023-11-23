@@ -17,19 +17,43 @@
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/TV_nameOfOwner"
+            android:id="@+id/TV_deviceStatus"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/TV_status"
+            android:id="@+id/TV_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/TV_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/TV_verificationDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/TV_verificationExpirationDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
             android:id="@+id/TV_stamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/TV_lastReadings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
