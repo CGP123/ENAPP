@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
 
         dbManager.openDB();
         List<MeteringDevice> list = new ArrayList<>();
-        MeteringDevice meteringDevice1 = new MeteringDevice("АКУД15794235","Иванов И. И.","Опломбирован","21.11.2023");
-        MeteringDevice meteringDevice2 = new MeteringDevice("ИСИБ74521398","Дмитриев В.П","Опломбирован","17.03.2004");
-        MeteringDevice meteringDevice3 = new MeteringDevice("АСУБ45127894","Пупкин В. И.","Не опломбирован","14.08.2011");
+        MeteringDevice meteringDevice1 = new MeteringDevice("549630481","Статус: активен","Тип прибора: счётчик ГВС","Адрес: Красногвардейская ул., 20 корпус 1, 37 кв","Дата поверки: 12.12.2022","Дата окончания поверки: 12.12.2023","Пломбы: присутствуют","Последние показания: 56 м3");
+        MeteringDevice meteringDevice2 = new MeteringDevice("783245481","Статус: неактивен","Тип прибора: ЭЭ","Адрес: Ямская ул., 28, 45 кв","Дата поверки: 31.04.2022","Дата окончания поверки: 31.04.2023","Пломбы: присутствуют","Последние показания: 88 квт*ч");
+        MeteringDevice meteringDevice3 = new MeteringDevice("965201481","Статус: активен","Тип прибора: ХВС","Адрес: ул. Красных Мадьяр, 68","Дата поверки: 05.05.2022","Дата окончания поверки: 05.12.2023","Пломбы: отсутствуют","Последние показания: 73 м3");
 
         list.add(meteringDevice1);
         list.add(meteringDevice2);
