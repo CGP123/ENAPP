@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.example.exampledb.dataBase.DBManager;
@@ -16,7 +17,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ImageButton IB_fragmentSwitch;
+    private Button IB_fragmentSwitch;
     private MainScreenFragment mainScreenFragment;
     private MeteringDeviceTableManager meteringDeviceTableManager;
     private DBManager dbManager;

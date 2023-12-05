@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.TextView;
 
 
@@ -24,14 +25,14 @@ public class NewCardFragment extends Fragment {
     private String stamp;
     private String lastReadings;
 
-    TextView TV_deviceNumber;
-    TextView TV_deviceStatus;
-    TextView TV_type;
-    TextView TV_address;
-    TextView TV_verificationDate;
-    TextView TV_verificationExpirationDate;
-    TextView TV_stamp;
-    TextView TV_lastReadings;
+    EditText TV_deviceNumber;
+    EditText TV_deviceStatus;
+    EditText TV_type;
+    EditText TV_address;
+    EditText TV_verificationDate;
+    EditText TV_verificationExpirationDate;
+    EditText TV_stamp;
+    EditText TV_lastReadings;
 
     public NewCardFragment() {
         // Required empty public constructor
